@@ -1,22 +1,34 @@
 ---
-title: Function name
-tags: utility
-expertise: intermediate
+title: Binary to Integer
+tags: math
+expertise: beginner
 firstSeen: 2021-06-13T05:00:00-04:00
 ---
 
-Explain briefly what the snippet does.
+Returns the decimal representation of a binary number
 
-- Explain briefly how the snippet works.
-- Use bullet points for your snippet's explanation.
-- Try to explain everything briefly but clearly.
+- Will return the decimal representation of the binary number 
+- passed in. The function will return -1 if an invalid input is given.
+- The argument must be wrapped in a string
 
 ```py
-def function_name(args):
-  # code
-  return 0
+def binary_to_int(bin_num):
+    # code
+    try:
+        int(bin_num, 2)
+    except ValueError:
+        return -1
+    else:
+        return int(bin_num, 2)
+
+
 ```
 
 ```py
-function_name(val) # result
+binary_to_int('10001')  # 17
+binary_to_int('11110101')  # 245
+binary_to_int('232')  # -1
+
+
+
 ```
