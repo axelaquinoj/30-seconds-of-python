@@ -2,7 +2,7 @@
 title: verify triangle / area
 tags: math
 expertise: beginner
-firstSeen: 2021-06-13T05:00:00-04:00
+firstSeen: 2022-09-22T20:41:30+0000
 ---
 
 Returns the area of a triangle using heron's equation if the 
