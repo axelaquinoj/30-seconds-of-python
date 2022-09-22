@@ -12,7 +12,7 @@ returns the result of the quadratic formula
 - Returns none if the formulas return an imaginary number
 
 ```py
-def quadratic(a, b, c):
+def quadratic_formula(a, b, c):
     import math
     try:
         formula1 = ((-b + (math.sqrt(b ** 2 - (4 * a * c)))) / (a * 2))
@@ -23,8 +23,8 @@ def quadratic(a, b, c):
 ```
 
 ```py
-quadratic(4,6,7)  # None
-quadratic(6,9,3)  # (-0.5,-1.0)
-quadratic(23,43,11)  # (-0.3058488634135029, -1.5637163539778014)
-quadratic(16,76,-14)  # (0.1775722320827673, -4.927572232082767)
+quadratic_formula(4,6,7)  # None
+quadratic_formula(6,9,3)  # (-0.5,-1.0)
+quadratic_formula(23,43,11)  # (-0.3058488634135029, -1.5637163539778014)
+quadratic_formula(16,76,-14)  # (0.1775722320827673, -4.927572232082767)
 ```
