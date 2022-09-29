@@ -17,7 +17,7 @@ def binary_to_int(bin_num):
     try:
         int(bin_num, 2)
     except ValueError:
-        return -1
+        return None
     else:
         return int(bin_num, 2)
 
@@ -27,7 +27,7 @@ def binary_to_int(bin_num):
 ```py
 binary_to_int('10001')  # 17
 binary_to_int('11110101')  # 245
-binary_to_int('232')  # -1
+binary_to_int('232')  # None
 
 
 
